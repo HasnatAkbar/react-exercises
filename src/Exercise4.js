@@ -3,7 +3,7 @@ import {useState} from 'react';
 
 const Header = (props) => {
     // State hook to set theme
-    const [theme, setTheme] = useState( { name: 'light', style: {} } );
+    const [theme, setTheme] = useState( { name: 'light', style: {backgroundColor: 'white'} } );
 
     // Click handler
     function themeHandler() {
@@ -27,7 +27,9 @@ const Header = (props) => {
 
 const Exercise4 = () => {
     return (
-        <Header heading="Baham!" slogan="Reducing your carbon footprint..." />
+        <div>
+            <Header heading="Welcome To Baham!" slogan="Reducing your carbon footprint..." />
+        </div>
     );
 }
 
