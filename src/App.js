@@ -9,8 +9,8 @@ import Exercise4 from './Exercise4';
 function App() {
   return (
     <div className="App">
-      <Exercise1 />
-      {/* <Exercise2 /> */}
+      {/*<Exercise1 /> */}
+      <Exercise2 />
       {/* <Exercise3 /> */}
       {/* <Exercise4 /> */}
     </div>
